@@ -6,7 +6,7 @@
   DSC_SPECIFICATION              = 0x00010019
   OUTPUT_DIRECTORY               = Build/$(PLATFORM_NAME)
   SUPPORTED_ARCHITECTURES        = AARCH64
-  BUILD_TARGETS                  = DEBUG|RELEASE
+  BUILD_TARGETS                  = DEBUG
   SKUID_IDENTIFIER               = DEFAULT
   FLASH_DEFINITION               = Platform/Qualcomm/sm8150/sm8150.fdf
   DEVICE_DXE_FV_COMPONENTS       = Platform/Oneplus/sm8150/hotdog.fdf.inc
