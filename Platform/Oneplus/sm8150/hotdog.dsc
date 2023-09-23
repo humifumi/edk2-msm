@@ -17,14 +17,14 @@
   GCC:*_*_AARCH64_CC_FLAGS = -DENABLE_SIMPLE_INIT -DENABLE_LINUX_SIMPLE_MASS_STORAGE
 
 [PcdsFixedAtBuild.common]
-  gQcomTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
-  gQcomTokenSpaceGuid.PcdMipiFrameBufferHeight|3120
+  gQcomTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
+  gQcomTokenSpaceGuid.PcdMipiFrameBufferHeight|2400
 
   # Simple Init
-  gSimpleInitTokenSpaceGuid.PcdGuiDefaultDPI|355
+  gSimpleInitTokenSpaceGuid.PcdGuiDefaultDPI|402
 
   gRenegadePkgTokenSpaceGuid.PcdDeviceVendor|"OnePlus"
-  gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"7T Pro"
-  gRenegadePkgTokenSpaceGuid.PcdDeviceCodeName|"hotdog"
+  gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"7T"
+  gRenegadePkgTokenSpaceGuid.PcdDeviceCodeName|"hotdogb"
 
   gsm8150PkgTokenSpaceGuid.PcdSmbiosProcessorModel|"Snapdragon (TM) 855 Plus @ 2.96 GHz"
